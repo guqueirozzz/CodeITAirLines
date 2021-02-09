@@ -1,0 +1,13 @@
+C:\Users\guara\OneDrive\Documentos\Estudos C#\CodeITAirlines\CodeITAirlines\bin\Debug\netcoreapp3.1\CodeITAirlines.exe
+C:\Users\guara\OneDrive\Documentos\Estudos C#\CodeITAirlines\CodeITAirlines\bin\Debug\netcoreapp3.1\CodeITAirlines.deps.json
+C:\Users\guara\OneDrive\Documentos\Estudos C#\CodeITAirlines\CodeITAirlines\bin\Debug\netcoreapp3.1\CodeITAirlines.runtimeconfig.json
+C:\Users\guara\OneDrive\Documentos\Estudos C#\CodeITAirlines\CodeITAirlines\bin\Debug\netcoreapp3.1\CodeITAirlines.runtimeconfig.dev.json
+C:\Users\guara\OneDrive\Documentos\Estudos C#\CodeITAirlines\CodeITAirlines\bin\Debug\netcoreapp3.1\CodeITAirlines.dll
+C:\Users\guara\OneDrive\Documentos\Estudos C#\CodeITAirlines\CodeITAirlines\bin\Debug\netcoreapp3.1\CodeITAirlines.pdb
+C:\Users\guara\OneDrive\Documentos\Estudos C#\CodeITAirlines\CodeITAirlines\obj\Debug\netcoreapp3.1\CodeITAirlines.csprojAssemblyReference.cache
+C:\Users\guara\OneDrive\Documentos\Estudos C#\CodeITAirlines\CodeITAirlines\obj\Debug\netcoreapp3.1\CodeITAirlines.csproj.CoreCompileInputs.cache
+C:\Users\guara\OneDrive\Documentos\Estudos C#\CodeITAirlines\CodeITAirlines\obj\Debug\netcoreapp3.1\CodeITAirlines.AssemblyInfoInputs.cache
+C:\Users\guara\OneDrive\Documentos\Estudos C#\CodeITAirlines\CodeITAirlines\obj\Debug\netcoreapp3.1\CodeITAirlines.AssemblyInfo.cs
+C:\Users\guara\OneDrive\Documentos\Estudos C#\CodeITAirlines\CodeITAirlines\obj\Debug\netcoreapp3.1\CodeITAirlines.dll
+C:\Users\guara\OneDrive\Documentos\Estudos C#\CodeITAirlines\CodeITAirlines\obj\Debug\netcoreapp3.1\CodeITAirlines.pdb
+C:\Users\guara\OneDrive\Documentos\Estudos C#\CodeITAirlines\CodeITAirlines\obj\Debug\netcoreapp3.1\CodeITAirlines.genruntimeconfig.cache
