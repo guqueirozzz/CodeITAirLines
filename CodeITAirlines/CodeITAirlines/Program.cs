@@ -13,7 +13,7 @@ namespace CodeITAirlines
         static void Main(string[] args)
         {
             Console.WriteLine("================================================================================\n");
-            Console.WriteLine("Por motivos de segurança, o primeiro passageiro deve ser o Policial, index: 6\n");
+            Console.WriteLine("Por motivos de segurança, o primeiro passageiro deve ser o Presidiário, index: 7\n");
             Console.WriteLine("================================================================================\n");
             Console.WriteLine("Entre com os indices respectivos à cada pessoa dos passageiros do SmartForTwo");
             Console.WriteLine("===========================================================================\n");
