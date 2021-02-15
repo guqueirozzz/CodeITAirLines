@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,23 +6,19 @@ namespace CodeITAirlines
 {
     class Aviao
     {
-
-        static List<string> lista_aviao = new List<string>();
+        static List<Tripulacao> lista_aviao = new List<Tripulacao>();
 
 
         // Função para adicionar pessoas ao avião
         public void AddPessoasAviao(int index_pessoa, List<Tripulacao> pessoas)
         {
-
-            lista_aviao.Add(pessoas[index_pessoa].descricao);
-
+            lista_aviao.Add(new Tripulacao(pessoas[index_pessoa].index, pessoas[index_pessoa].permissao_conducao, pessoas[index_pessoa].descricao, pessoas[index_pessoa].fl_policia));
         }
 
         // Função para remover pessoas do avião
         public void RmPessoasAviao(int index_pessoa, List<Tripulacao> pessoas)
         {
-            lista_aviao.Remove(pessoas[index_pessoa].descricao);
-
+            lista_aviao.RemoveAll(x => x.index == index_pessoa);
         }
 
         // Listagem de pessoas no avião
@@ -37,16 +33,24 @@ namespace CodeITAirlines
             }
             else if (lista_aviao.Count > 0)
             {
-                foreach (string pessoa in lista_aviao)
+                foreach (Tripulacao trip in lista_aviao)
                 {
-                    Console.WriteLine(pessoa);
+                    Console.WriteLine(trip.descricao);
                 }
             }
 
-            else if (lista_aviao.Contains("7 - Presidiário") && lista_aviao.Count > 0 )
-                Console.WriteLine("O presidiário nao pode ficar sozinho sem a presença do polciial");
-
-
+            if (lista_aviao.Exists(p => p.descricao == "6 - Policial") && lista_aviao.Exists(p => p.descricao == "7 - Presidiário") && lista_aviao.Count > 1)
+                Console.WriteLine("EXISTE POLICIALLLLLLL");
+            else if (lista_aviao.Count == 0)
+            {
+                Console.WriteLine("Aguardando passageiros para validação");
+            }
+            else if ( !lista_aviao.Exists(p => p.descricao == "6 - Policial") && lista_aviao.Exists(p => p.descricao == "7 - Presidiário") && lista_aviao.Count > 1)
+            {
+                Console.WriteLine("O policial nao esta com o presidiário");
+                Console.WriteLine("Encerrando programa! ");
+                Environment.Exit(0);
+            }
             Console.WriteLine("========================\n\n");
         }
     }
